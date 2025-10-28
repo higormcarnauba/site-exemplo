@@ -23,6 +23,7 @@ main {
 
 .conteudo-bem-vindo {
     width: 750px;
+    margin: 0 auto;
     padding: 50px;
     border-radius: 10px;
     background-color: #ffffff;
@@ -30,6 +31,7 @@ main {
 
 .conteudo-bem-vindo h1 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .conteudo-bem-vindo p {
