@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8"/>
         <title>Disciplina de GC - HOME</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" href="assets/img/icon-gc.png" type="image/x-icon">
+        <style>
+            body {
+                margin: 0; 
+            }
+            .container-principal {
+                display: flex;
+            }
+            .container-principal main {
+                flex-grow: 1;
+                padding: 20px;
+            }
+            .barra-lateral {
+                width: 250px;
+                flex-shrink: 0;
+                background-color: #b9b1b1e4;
+                padding: 20px;
+                min-height: calc(100vh - 80px); 
+            }
+            .barra-lateral h3 {
+                margin-top: 0;
+                border-bottom: 2px solid #000000;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .barra-lateral p {
+                font-size: 1em;
+            }
+            .barra-lateral a {
+                text-decoration: none;
+                color: #0077b5;
+            }
+            .barra-lateral a:hover {
+                text-decoration: underline;
+            }
+        </style>
     </head>
     <body>
         <header class="cabecalho">
@@ -16,12 +51,26 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="conteudo-bem-vindo">
-                <div class="titulo-conteudo">
-                    <h1>Bem vindo à disciplina de Gerência de Configuração</h1>
-                </div>
-            </section>
-        </main>
+
+        <div class="container-principal">
+            <aside class="barra-lateral">
+
+                <h3>Professora</h3>
+                <p>
+                    <a href="https://linkedin.com/in/lanamesquita/" target="_blank">
+                        Lana Mesquita (LinkedIn)
+                    </a>
+                </p>
+            </aside>
+
+            <main>
+                <section class="conteudo-bem-vindo">
+                    <div class="titulo-conteudo">
+                        <h1>Bem vindo à disciplina de Gerência de Configuração</h1>
+                    </div>
+                </section>
+            </main>
+        </div>
+
     </body>
 </html>
