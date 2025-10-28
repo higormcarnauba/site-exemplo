@@ -195,3 +195,12 @@ main {
     visibility: visible;
     opacity: 1;
 }
+
+footer {
+    height: 80px;
+    background-color: #061e64ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
